@@ -1,0 +1,187 @@
+# 15-Day PostgreSQL Learning Plan
+
+This structured 15-day PostgreSQL learning plan is designed to help you master PostgreSQL basics, advanced concepts, and practical applications. The plan includes a one-hour daily study schedule and concludes each week with a 100-mark knowledge test to assess your understanding.
+
+---
+
+## Week 1: 7-Day Study Plan
+
+### Day 1: Introduction to PostgreSQL
+- **Topics:**
+  - What is PostgreSQL?
+  - History and features of PostgreSQL
+  - Installing PostgreSQL (Windows, macOS, Linux)
+  - PostgreSQL architecture overview
+- **Tasks:**
+  - Install PostgreSQL on your system.
+  - Explore the `psql` command-line tool.
+  - Run basic commands like `\l`, `\dt`, and `\?`.
+- **Resources:**
+  - [PostgreSQL Official Documentation](https://www.postgresql.org/docs/)
+
+### Day 2: Database and Table Basics
+- **Topics:**
+  - Creating and managing databases
+  - Creating tables with `CREATE TABLE`
+  - Data types in PostgreSQL (e.g., `INTEGER`, `VARCHAR`, `DATE`)
+  - Constraints (e.g., `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`)
+- **Tasks:**
+  - Create a database and tables.
+  - Add constraints to your tables.
+- **Practice:**
+  - Create a sample database for a library or e-commerce system.
+
+### Day 3: CRUD Operations
+- **Topics:**
+  - Inserting data with `INSERT`
+  - Querying data with `SELECT`
+  - Updating data with `UPDATE`
+  - Deleting data with `DELETE`
+- **Tasks:**
+  - Perform CRUD operations on your tables.
+  - Use `WHERE`, `ORDER BY`, and `LIMIT` clauses.
+- **Practice:**
+  - Insert sample data into your tables and query it.
+
+### Day 4: Advanced Querying
+- **Topics:**
+  - Filtering with `WHERE` and logical operators (`AND`, `OR`, `NOT`)
+  - Using `DISTINCT`, `GROUP BY`, and `HAVING`
+  - Aggregation functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`)
+- **Tasks:**
+  - Write queries to filter and aggregate data.
+- **Practice:**
+  - Analyze data from your sample database using aggregation.
+
+### Day 5: Joins and Relationships
+- **Topics:**
+  - Understanding relationships (one-to-one, one-to-many, many-to-many)
+  - Using `JOIN` (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN)
+  - Self-joins and cross-joins
+- **Tasks:**
+  - Create related tables and practice joins.
+- **Practice:**
+  - Query data from multiple tables using joins.
+
+### Day 6: Indexes and Performance
+- **Topics:**
+  - What are indexes and why are they important?
+  - Creating and managing indexes
+  - Understanding query execution plans with `EXPLAIN`
+- **Tasks:**
+  - Create indexes on your tables.
+  - Analyze query performance using `EXPLAIN`.
+- **Practice:**
+  - Optimize queries using indexes.
+
+### Day 7: Knowledge Test (Week 1)
+- **Test Topics:**
+  - Database and table creation
+  - CRUD operations
+  - Advanced querying
+  - Joins and relationships
+  - Indexes and performance
+- **Test Format:**
+  - 20 multiple-choice questions (2 marks each)
+  - 5 short-answer questions (5 marks each)
+  - 2 query-writing tasks (10 marks each)
+
+---
+
+## Week 2: 8-Day Study Plan
+
+### Day 8: Views and Materialized Views
+- **Topics:**
+  - Creating and managing views
+  - Understanding materialized views
+  - Differences between views and materialized views
+- **Tasks:**
+  - Create views and materialized views.
+  - Query data from views.
+- **Practice:**
+  - Use views to simplify complex queries.
+
+### Day 9: Transactions and Concurrency
+- **Topics:**
+  - What are transactions?
+  - Using `BEGIN`, `COMMIT`, and `ROLLBACK`
+  - Understanding ACID properties
+  - Concurrency control and isolation levels
+- **Tasks:**
+  - Perform transactions and handle errors.
+- **Practice:**
+  - Simulate concurrent transactions and observe behavior.
+
+### Day 10: Stored Procedures and Functions
+- **Topics:**
+  - Creating stored procedures and functions
+  - Using `PL/pgSQL` for procedural logic
+  - Passing parameters and returning values
+- **Tasks:**
+  - Write simple stored procedures and functions.
+- **Practice:**
+  - Create a function to calculate discounts or taxes.
+
+### Day 11: Triggers
+- **Topics:**
+  - What are triggers?
+  - Creating and managing triggers
+  - Using triggers for data validation and automation
+- **Tasks:**
+  - Create triggers to automate tasks.
+- **Practice:**
+  - Use triggers to enforce business rules.
+
+### Day 12: Backup and Recovery
+- **Topics:**
+  - Importance of backups
+  - Using `pg_dump` and `pg_restore`
+  - Point-in-time recovery (PITR)
+- **Tasks:**
+  - Backup and restore your database.
+- **Practice:**
+  - Simulate a database failure and restore data.
+
+### Day 13: Security and User Management
+- **Topics:**
+  - Creating and managing users and roles
+  - Granting and revoking permissions
+  - Securing your PostgreSQL instance
+- **Tasks:**
+  - Create users and assign roles.
+  - Grant and revoke permissions.
+- **Practice:**
+  - Set up a secure database environment.
+
+### Day 14: Advanced Features
+- **Topics:**
+  - Full-text search
+  - JSON and JSONB data types
+  - Using extensions (e.g., `PostGIS`, `pg_partman`)
+- **Tasks:**
+  - Explore advanced features.
+- **Practice:**
+  - Use JSONB to store and query semi-structured data.
+
+### Day 15: Knowledge Test (Week 2)
+- **Test Topics:**
+  - Views and materialized views
+  - Transactions and concurrency
+  - Stored procedures and functions
+  - Triggers
+  - Backup and recovery
+  - Security and user management
+  - Advanced features
+- **Test Format:**
+  - 20 multiple-choice questions (2 marks each)
+  - 5 short-answer questions (5 marks each)
+  - 2 query-writing tasks (10 marks each)
+
+---
+
+## Additional Tips
+- **Daily Practice:** Spend at least 15 minutes practicing queries or exploring PostgreSQL features.
+- **Documentation:** Refer to the [PostgreSQL Official Documentation](https://www.postgresql.org/docs/) for detailed explanations.
+- **Community:** Join PostgreSQL forums or communities to ask questions and share knowledge.
+
+By following this plan, you’ll gain a solid understanding of PostgreSQL in just 15 days!
